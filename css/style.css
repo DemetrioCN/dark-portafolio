@@ -1,7 +1,15 @@
-/* font-family: 'Bitter', serif;
-font-family: 'Space Mono', monospace; */
-body {
-  background: red;
+/* Color variables */
+/* Width and height variables */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Bitter", serif;
+  font-family: "Space Mono", monospace;
 }
 
 /*# sourceMappingURL=style.css.map */

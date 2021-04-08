@@ -1,5 +1,24 @@
-/* font-family: 'Bitter', serif;
-font-family: 'Space Mono', monospace; */
-body {
-    background: red;
+/* Color variables */
+$background: #1D1D28;
+$boxgradient: linear-gradient(180deg, #2A2B30 0%, rgba(0, 148, 255, 0) 100%);
+$text_gradient: linear-gradient(180deg, #FFFF00, 89%, #0094FF, 91%);
+$white: rgba(255, 255, 255, 0.9);
+$yello_title: rgba(255, 255, 0, 0.9);
+$blue_link: rgba(0, 148, 255, 0.9);
+
+/* Width and height variables */
+$width_box: 300px;
+$height_box: 350px;
+$width_img: 300px;
+$height_img: 230px;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Bitter', serif;
+    font-family: 'Space Mono', monospace;
 }
