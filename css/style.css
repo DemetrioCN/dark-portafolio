@@ -86,6 +86,11 @@ body {
   margin-bottom: 20px;
 }
 
+main {
+  margin-bottom: 70px;
+}
+
+/* Portfolio section: Web sites constructed */
 .article {
   width: 300px;
   height: 350px;
@@ -125,6 +130,63 @@ body {
   font-weight: 400;
   margin: 10px;
   text-decoration: none;
+}
+
+/* Footer section style */
+.footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__list {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  list-style: none;
+}
+
+.footer__list--link {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.footer__list--link figure {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+.footer__list--link figure img {
+  width: inherit;
+  height: inherit;
+}
+
+.footer__list--link p {
+  font-size: 1.2rem;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+p {
+  height: 50px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 /*# sourceMappingURL=style.css.map */
