@@ -12,6 +12,12 @@ $height_box: 350px;
 $width_img: 300px;
 $height_img: 230px;
 
+@mixin centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -21,4 +27,57 @@ html {
     font-size: 62.5%;
     font-family: 'Bitter', serif;
     font-family: 'Space Mono', monospace;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: $background;
+    padding: 0 10px;
+}
+.header {
+    width: 100%;
+    height: 200px;
+    background-color: $background;
+    display: grid;
+    grid-template: 2fr 1fr / 2fr;
+}
+.header__top {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+        font-family: 'Bitter', serif;
+        font-size: 2.0rem;
+        font-weight: 600;
+        color: $white;
+    }
+    a {
+        width: 40px;
+        height: 40px;
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+.header__bottom {
+    width: 100%;
+    height: 150px;
+    /* max-width: 500px; */
+    @include centering;
+
+    h1 {
+        width: 80%;
+        font-family: 'Bitter', serif;
+        font-size: 2.4rem;
+        font-weight: 500;
+        text-align: center;
+        background: -webkit-linear-gradient(#FFFF00, #0094FF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
 }
