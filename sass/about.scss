@@ -67,6 +67,7 @@ body {
         }
     }
 }
+
 .header__bottom {
     width: 100%;
     height: 150px;
@@ -112,6 +113,8 @@ main {
         width: inherit;
         height: inherit;
         border-radius: 5px;
+        max-height: 500px;
+        max-width: 300px;
     }
 }
 
@@ -135,13 +138,11 @@ main {
 
 
 .tools {
-    display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr 1fr;
-    width: 100%;
+    width: 80%;
     height: auto;
     margin-top: 20px;
     .tools__figure {
-        width: 55px;
+        width: 100%;
         height: 80px;
         justify-self: center;
         display: flex;
