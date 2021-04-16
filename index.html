@@ -8,22 +8,30 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
     <!-- Header section -->
     <header class="header">
         <div class="header__top">
             <p>DemetrioCN</p>
-            <a href="#"><img src="./img/icons/menu_white_24dp.svg" alt="Menu icon"></a>
+            <button onclick="myFunction()" class="menubar">
+                <i id="logo" class="fa fa-bars"></i>
+            </button>
+            <nav class="nav" id="myNav">
+                <ul>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
         </div>
         <div class="header__bottom">
             <h1>Hi, I am Demetrio and I am a Frontend Developer.</h1>
         </div>
-        <hr>
     </header>
-    <main class="main">  
+    <main id="porfolio" class="main">  
         <!-- Main section, start with portfolio section -->
-        <h2 class="section_title">Portfolio</h2>
+        <h2 class="section_title">Welcome to my Portfolio</h2>
         <article class="article">
             <p class="article__title">Job list width filter</p>
             <figure class="article__figure">
@@ -94,5 +102,6 @@
         </ul>
         <p>© DemetrioCN 2021</p>
     </footer>
+    <script src="script/app.js"></script>
 </body>
 </html>
