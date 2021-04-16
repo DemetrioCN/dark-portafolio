@@ -114,6 +114,7 @@ body {
   margin: 20px 0;
   background-color: #0094FF;
   padding: 10px;
+  margin-left: 10px;
   border-radius: 10px;
 }
 
@@ -121,10 +122,17 @@ main {
   margin-bottom: 70px;
 }
 
+.main__article {
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  place-items: center center;
+}
+
 /* Portfolio section: Web sites constructed */
 .article {
   width: 300px;
-  height: 350px;
   background: linear-gradient(180deg, #2A2B30 0%, rgba(0, 148, 255, 0.1) 100%);
   border-radius: 5px;
   margin-bottom: 10px;
