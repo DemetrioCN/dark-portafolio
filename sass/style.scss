@@ -235,6 +235,15 @@ p {
         width: 70%;
         margin: 0 auto;
     }
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .footer__list li{
+        margin-right: 50px;
+    }
 }
 
 /* Media quiere for small screen's */
