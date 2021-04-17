@@ -8,18 +8,26 @@
     <link rel="stylesheet" href="./css/about.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
     <!-- Header section -->
     <header class="header">
-        <div class="header__top">
+        <div id="nav_sticky" class="header__top">
             <p>DemetrioCN</p>
-            <a href="#"><img src="./img/icons/menu_white_24dp.svg" alt="Menu icon"></a>
+            <button onclick="myFunction()" class="menubar">
+                <i id="logo" class="fa fa-bars"></i>
+            </button>
+            <nav class="nav" id="myNav">
+                <ul>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About</a> </li>
+                </ul>
+            </nav>
         </div>
         <div class="header__bottom">
             <h1>Hi, I am Demetrio and I am a Frontend Developer.</h1>
         </div>
-        <hr>
     </header>
     <main class="main">  
         <!-- Main section, start with about me section -->
@@ -103,5 +111,6 @@
         </ul>
         <p>© DemetrioCN 2021</p>
     </footer>
+    <script src="/script/app.js"></script>
 </body>
 </html>
