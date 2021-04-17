@@ -133,13 +133,19 @@ body {
 /* Main style, start with portfolio section */
 
 .section_title {
-    font-size: 2.0rem;
+    display: inline-block;
+    font-size: 2.4rem;
     color: $white;
     font-family: 'Bitter', serif;
     font-weight: 500;
     font-style: normal;
-    margin-bottom: 20px;
+    margin: 20px 0;
+    background-color: #0094FF;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
 }
+
 main {
     margin-bottom: 70px;
 
