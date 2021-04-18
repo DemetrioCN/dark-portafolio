@@ -107,6 +107,11 @@ body {
   color: black;
 }
 
+.header__top.sticky .nav ul li a:hover {
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
 /* Introduce */
 .header__bottom {
   width: 100%;
@@ -328,6 +333,10 @@ p {
     background: -webkit-linear-gradient(#FFFF00, #0094FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  .newNavCSS ul li a:hover {
+    font-weight: 600;
   }
 }
 
