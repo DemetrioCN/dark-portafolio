@@ -160,6 +160,13 @@ main {
   font-weight: 400;
   font-style: normal;
 }
+.text__about p a {
+  color: rgba(0, 148, 255, 0.9);
+  text-decoration: none;
+}
+.text__about p a:hover {
+  color: rgba(255, 255, 0, 0.9);
+}
 
 /* Style for tool that I used */
 .tools {
