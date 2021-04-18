@@ -173,14 +173,25 @@ main {
   font-weight: 400;
   font-style: normal;
 }
-.text__about .last_p {
-  margin-top: 50px;
-}
 
 .tools {
-  width: 80%;
+  width: 70%;
   height: auto;
-  margin-top: 20px;
+  margin-top: 50px;
+  margin: 0 auto;
+}
+.tools .icons {
+  width: 100%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.tools .last_p {
+  font-size: 1.8rem;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  margin: 50px 0;
 }
 .tools .tools__figure {
   width: 100%;
@@ -190,11 +201,11 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .tools .tools__figure img {
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   justify-self: center;
 }
 .tools .tools__figure p {
