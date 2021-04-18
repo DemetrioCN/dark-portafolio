@@ -142,31 +142,31 @@ body {
     margin: 20px 0;
     background-color: #0094FF;
     padding: 10px;
-    margin-left: 10px;
+    margin-bottom: 40px;
     border-radius: 10px;
 }
 
 main {
     margin-bottom: 70px;
-
 }
 
+.main__content {
+    margin: 0 auto;
+}
 .myphoto {
-    width: 100%;
-    height: 500px;
-    img {
-        width: inherit;
+    display: flex;
+    @include centering;
+    margin-bottom: 50px;
+    .my_photo_img {
+        width: 700px;
+        min-width: 300px;
         height: inherit;
         border-radius: 5px;
-        max-height: 500px;
-        max-width: 300px;
     }
 }
-
-
 .text__about {
     width: 100%;
-    height: auto;
+    min-width: 300px; 
     margin-bottom: 20px;
     p { 
         height: auto;
@@ -175,7 +175,6 @@ main {
         font-weight: 400;
         font-style: normal;
     }
-
     .last_p {
         margin-top: 50px;
     }
@@ -284,7 +283,6 @@ p {
     .header__bottom {
         padding-top: 100px;
     }
-    
 }
 
 /* Media quiere for small screen's */
@@ -330,3 +328,13 @@ p {
         -webkit-text-fill-color: transparent;
     }
 }
+
+/* @media only screen and (max-width: 320px) { 
+    .my_photo_img {
+        display: none;
+    }
+    .my_photo--short  {
+        display: block;
+        width: 300px;
+    }
+} */
