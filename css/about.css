@@ -222,14 +222,20 @@ main {
 }
 
 .footer__list--link {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 10px;
   text-decoration: none;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+
+.footer__list--link:hover {
+  background-color: rgba(0, 148, 255, 0.9);
 }
 
 .footer__list--link figure {
