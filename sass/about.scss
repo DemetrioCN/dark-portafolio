@@ -133,12 +133,11 @@ main {
 .myphoto {
     display: flex;
     @include centering;
-    margin-bottom: 50px;
     .my_photo_img {
         width: 700px;
         min-width: 300px;
         height: inherit;
-        border-radius: 5px;
+        border-radius: 5px; 
     }
 }
 /* Style for my description */

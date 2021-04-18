@@ -138,7 +138,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
 }
 .myphoto .my_photo_img {
   width: 700px;
