@@ -82,6 +82,11 @@ body {
   text-decoration: none;
 }
 
+.nav ul a:hover {
+  color: rgba(255, 255, 0, 0.9);
+  font-size: 2.6rem;
+}
+
 .header__top.sticky .menubar i {
   color: black;
 }
